@@ -1,0 +1,20 @@
+<head>
+    <style>a,br{user-select: none;}</style>
+    <meta charset="UTF-8">
+    <script>
+        var current_playing = -1;
+        var current_audio = undefined;
+        function playAudio(event, path, time){
+            event.preventDefault()
+           if(current_audio && !current_audio.paused){
+               current_audio.pause();
+           }
+           else{
+               current_audio = new Audio(path+"#t="+time)
+               current_audio.play()
+               current_playing = time;
+           }
+        }
+    </script>
+    </head>
+    <body style="max-width:800px;margin:auto;margin-top:100px !important;text-align:center;"><h1>test</h1>  Kan jag låsa det här nu?<a href="#" onclick="playAudio(event, './audio/test.m4a',0)">0:00:00</a><br/><br/>  Ja. <a href="#" onclick="playAudio(event, './audio/test.m4a',2)">0:00:02</a><br/><br/>  Okej, kan du berätta vad du heter? <a href="#" onclick="playAudio(event, './audio/test.m4a',4)">0:00:04</a><br/><br/>  Jag heter X X. <a href="#" onclick="playAudio(event, './audio/test.m4a',7)">0:00:07</a><br/><br/>  Väldigt simpelt namn. <a href="#" onclick="playAudio(event, './audio/test.m4a',9)">0:00:09</a><br/><br/>  Ja, just det. Vanligt. <a href="#" onclick="playAudio(event, './audio/test.m4a',11)">0:00:11</a><br/><br/>  Okej, och vad är dina planer när du är klar? <a href="#" onclick="playAudio(event, './audio/test.m4a',35)">0:00:35</a><br/><br/>  Nu låtsas vi att du inte är klar. <a href="#" onclick="playAudio(event, './audio/test.m4a',40)">0:00:40</a><br/><br/>  Vad är dina planer efter? </body>

@@ -1,0 +1,9 @@
+﻿[00:00:00.000 --> 00:00:02.000]  Kan jag låsa det här nu?
+[00:00:02.000 --> 00:00:04.000]  Ja.
+[00:00:04.000 --> 00:00:07.000]  Okej, kan du berätta vad du heter?
+[00:00:07.000 --> 00:00:09.000]  Jag heter X X.
+[00:00:09.000 --> 00:00:11.000]  Väldigt simpelt namn.
+[00:00:11.000 --> 00:00:13.000]  Ja, just det. Vanligt.
+[00:00:35.000 --> 00:00:40.000]  Okej, och vad är dina planer när du är klar?
+[00:00:40.000 --> 00:00:42.000]  Nu låtsas vi att du inte är klar.
+[00:00:44.000 --> 00:00:45.000]  Vad är dina planer efter?
